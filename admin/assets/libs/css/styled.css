@@ -1,0 +1,122 @@
+.breadcrumb{ 
+    background: #0F60B6;
+    margin-top: 20px;
+    padding: 10px;
+}
+.breadcrumb li{
+    color: #fff;
+}
+.breadcrumb li a{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+.card-header{
+    background: #0F60B6;
+    color: #fff;
+}
+.add-course button, .add-subject button{
+    background: #EF841A;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    min-height: 35px;
+    height: 35px;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+}
+.credit{
+    background: #EB3117;
+    padding: 5px 10px;
+    color: #fff;
+    line-height: 18px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.credit a{
+    color: #fff;
+    text-decoration: none;
+}
+.action a{
+    margin-right: 2px;
+    color: #FFF;
+    cursor: pointer;
+}
+.action a .view, .action a .delete{
+    background: #173AEB;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 6px;
+
+}
+.action a .delete{
+    background: #EB3117;
+}
+.modal-header{
+    background: #0F60B6;
+    height: 55px;
+    line-height: 55px;
+    color: #FFF;
+    text-transform: uppercase;
+}
+.modal.show{
+    opacity: 1;
+}
+
+.input-box{
+    margin-top: 10px;
+}
+.input-box label{
+    font-weight: 600;
+}
+.input-box label span{
+    color: #dc3545;
+}
+.input-box textarea#long-desc{
+    height: 350px;
+}
+.input-box input[type="submit"]{
+    width: 140px;
+    height: 40px;
+    outline: none;
+    margin-top: 10px;
+    border: none;
+    border: 1px solid #0F60B6;
+    background: #0F60B6;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+.registration-content{
+    border: 1px solid #7A7A7A;
+    background: #fff;
+}
+.registration-content .content-header{
+    background: #dee2e6;
+    border-bottom: 1px solid #7A7A7A;
+    padding: 10px;
+    font-weight: 600;
+}
+.registration-content .content-box{
+    margin: 15px;
+}
+.registration-content .content-box .input-group .input-group-prepend span{
+    height: 40px;
+}
+.registration-content .content-box .input-group button[type="submit"]{
+    background: #0F60B6;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+#category-image img{
+    height: 40px !important;
+    width: auto;
+}

@@ -1,0 +1,144 @@
+#product-category {
+	overflow-x: hidden;
+}
+#product-category h2{
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+#product-category  .item .category-details{
+	border-radius: 10px;
+}
+#product-category  .item .category-details img{
+	border-radius: 10px;
+	height: 150px;
+	width: 100%;
+	object-fit: cover;
+}
+#product-category  .item .category-details h5{
+	text-align: center;
+	font-size: 16px;
+	margin-top: 10px;
+}
+.Appointment a{
+	border: 1px solid #FF3414;
+	font-size: 16px;
+	height: 30px;
+	width: 30px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin-right: 5px;
+	line-height: 20px;
+	transition: all 0.5s linear;
+}
+#about-us{
+	overflow-x: hidden;
+}
+.Appointment a:hover{
+	background: #FF3414;
+	color: #FFF;
+}
+.about-us h1{
+	font-size: 34px;
+	font-weight: 700;
+	color: #fd7e14;
+}
+.about-product-type img{
+	height: 60px;
+	width: auto;
+}
+.about-product-type p{
+	font-size: 10px;
+	margin: 0;
+	text-align: center;
+}
+#hero-banner{
+  position: relative;
+}
+
+#hero-banner .video-banner{
+	position: relative;
+	width: 100%;
+	top: 0;
+}
+#hero-banner .video-banner #video-bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3));
+}
+#hero-banner .video-banner video{
+	width: 100%;
+	height: 100%;
+}
+.video-banner .slider_text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.video-banner .slider_text p{
+	font-size: 18px;
+	color: #fff;
+	font-weight: 600;
+}
+.video-banner .slider_text h3{
+	font-size: 52px;
+	color: #fff;
+	font-weight: 600;
+}
+@media(max-width: 772px){
+	.video-banner .slider_text p{
+		font-size: 16px;
+	}
+	.video-banner .slider_text h3{
+		font-size: 45px;
+	}
+	.boxed-btn3{
+		padding: 10px 15px;
+		font-size: 12px;
+	}
+}
+@media(max-width: 552px){
+	.video-banner .slider_text p{
+		font-size: 12px;
+		font-weight: 400;
+		margin: 0;
+	}
+	.video-banner .slider_text h3{
+		font-size: 24px;
+	}
+	.boxed-btn3{
+		padding: 10px 15px;
+		font-size: 12px;
+	}
+}
+.product_thumb{
+	position: relative;
+	width: 100%;
+}
+.product_thumb img{
+	width: 100%;
+	height: 450px;
+	object-fit: cover;
+	border: 1px solid #EAEAEA;
+	box-shadow: 0 0 10px #7A7A7A;
+}
+.products-gallery{
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+.products-gallery img{
+	width: 85px;
+	height: 80px;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+.more-product .item .single_service img{
+	width: 100%;
+}
