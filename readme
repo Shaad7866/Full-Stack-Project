@@ -1,13 +1,113 @@
-===================================
-DatabaseName - real_tiles
-===================================
------ Language Uses -----
-===================================
-Front End ----HTML, CSS, BOOTSTRAP, JAVASCRIPT, JQUERY
-Back End ---- Mysql, PHP and Ajax
+RealTiles – Dynamic Tile Catalog Website
 
-===================================
-Admin Pannel -------
-User is - Realtiles
-Pass = Realtiles@123
-===================================
+A dynamic tile catalog website built using HTML, Bootstrap, PHP, and MySQL. Users can explore tiles by category, view product details, and send enquiries. The project also includes a secure admin panel to manage tile products, categories, images, catalogs, and customer enquiries.
+
+🚀 Features
+
+🖥️ Frontend
+
+Responsive web pages built using HTML and Bootstrap
+
+Product listing by category (Bathroom, Kitchen, PGVT, etc.)
+
+Product gallery with images and tile details
+
+Downloadable catalogs (PDF)
+
+Enquiry form for customer interaction
+
+🔒 Admin Panel
+
+Admin login with session handling
+
+Add/edit/delete tile products
+
+Upload multiple images per product
+
+Manage tile categories and catalogs
+
+View and respond to customer enquiries
+
+🔗 Backend & Database
+
+PHP used to handle backend logic and data interaction
+
+MySQL as the database (import using phpMyAdmin)
+
+mysqli used for queries (no ORM)
+
+session_start() for login session management
+
+🛠️ Technologies Used
+
+Frontend:
+
+HTML
+
+Bootstrap
+
+JavaScript
+
+jQuery
+
+Backend:
+
+PHP
+
+MySQL
+
+AJAX
+
+🔄 User Flow
+
+The website follows a clean, user-friendly flow:
+
+Customer Side:
+
+Homepage: Shows featured tiles and links to category pages with tile thumbnails and images.
+
+Category Pages: Users can browse tiles by types (Bathroom, Kitchen, PGVT, etc.).
+
+Single Tile View: Detailed product page with images, size info, and enquiry form.
+
+Quick Enquiry: Users can send queries about specific tiles. Data is stored in the database.
+
+Admin Side:
+
+Login Panel: Authenticated login using email and password.
+
+Dashboard: Displays overview and navigation options for managing products and categories.
+
+Product Management: Admin can add, edit, and delete tile products and upload multiple images.
+
+Category Management: Admin can create and manage categories with catalog files and banners.
+
+Enquiry Tracking: Admin can view customer enquiries in a structured format.
+
+📁 Project Structure
+
+realtiles/
+├── admin/           # Admin dashboard files
+├── css/             # Stylesheets
+├── images/          # Logo and banner images
+├── js/              # JavaScript (if any)
+├── uploads/         # Uploaded product images
+├── footer.php       # Footer component
+├── header.php       # Header component
+├── index.php        # Home page
+└── ...              # Other PHP pages
+
+🔐 Admin Access
+
+Demo login credentials are included in the codebase for testing purposes only.⚠️ For security, passwords should be hashed and stored securely in production environments.
+
+🗃️ Database
+
+Database Name: real_tiles
+
+Tables: users, products, category, product_gallery, quick_enquiry, employee
+
+SQL File: u900985395_realtiles.sql
+
+
+
